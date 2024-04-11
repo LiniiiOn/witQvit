@@ -1,108 +1,753 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FirstStore</title>
-    <link rel="stylesheet" href="stylePage1.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="headerTop">
+body{
+    margin: 0;
+    padding: 0;
+}
 
-            </div>
-            <div class="headerBottom">
-                <ul>
-                    <li><a href="">YouTube</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Telegram</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Meme</a></li>
-                </ul>
-            </div>
-        </div> 
-        <div class="main">
-            <div class="textMenu">
-                <div class="menuItem menuItem1">
-                    Пра яго
-                    <p>Імя: Хведар Звычайны</p>
-                    <p>Год: 27</p>
-                    <p>Месца нараджэння: места Горкі, Рэспубліка Беларусь</p>
-                    <p>Сям'я: невядома</p>
+@media screen and (min-width: 1100px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 
-                </div>
-                <div class="menuItem menuItem2">
-                    Захапленні
-                    <p>Цікавіцца містыкай</p>
-                    <p>Вядзе свой блог ужо 3 гады, дзе ён з сябрам і некаторымі знаёмымі ходзяць па розных містычных месцах</p>
-                    <p>У школе перамагаў у радыёфізічных конкурсах</p>
-                    <p>У 9 класе быў пераможцай у алімпіядзе па гісторыі, дзе абыйшоў наступнае месца пасля яго на 13 балаў</p>
-                    <p>Спікулюе рознымі рэчамі...</p>
-                </div>
-                <div class="menuItem menuItem3">
-                    Здольнасці
-                    <p>Інтэлект: 6/10</p>
-                    <p>Сіла: 3/10</p>
-                    <p>Камунікаціўнасць: 7/10</p>
-                    <p>Логіка: 4/10</p>
-                    <p>Вынаходлівасць: 5/10</p>
-                    <p>Ініцыятыўнасць: 8/10</p>
-                    <p>Імкненне: 7/10</p>
-                </div>
-                <div class="menuItem menuItem4">
-                    Рысы характару
-                    <p>Смелы</p>
-                    <p>Пагардлівы</p>
-                    <p>Глупы</p>
-                </div>
-                <div class="menuItem menuItem5">
-                    Веды моў
-                    <p>En</p>
-                    <p>By</p>
-                    <p>Ru</p>
-                    <p>Uа</p>
-                    <p>Elvish language??</p>
-                </div>
-            </div>
-            <div class="textMain">
-                <div class="storeName">
-                    <h1>1. Хата, у якой немагчыма пераначаваць</h1>
-                </div>
-                <div class="storeMain">
-                    <div class="storeMain1">
-                        <p>Итак, меня зовут Г-н Смех! Да, тот, смех, который "ха-ха! и хи-хи!" И я тут стою посредине этого большого торгового центра, ага? Такого, в котором магазинчики из каждого угла торчат, ха-ха? Но, впрочем, это не очень смешно!</p>
-                        <p>Несколько детишек рассмеялись над моим несусветным гримом и полосатым костюмом, но вообще-то тут ничего забавного не было, и мне их смех был не очень приятен. Даже немного задевал мои чувства.</p>
-                        <p>Но я не обиделся и вообще! Даже решил показать им хороший фокус! Говорю одному из детей: "А хочешь руку?", хи-хи, и протягиваю руку, как бы для рукопожатия… он хватает меня за руку, а она - раз! и оторвалась, а я ему и говорю: "Ну вот, теперь у тебя будет запасная!", ха-ха! Забавно, правда?</p>
-                        <p>Дитёнок как закричит - и убежал, ну, я думаю, наверное, я немного всё-таки обиделся, потому что это всё же был хороший фокус, знаете! Немного больно, когда рука отрывается, но фокус хороший! Ну. тогда я достал свой маленький швейный наборчик и пришил отрывную руку на место и, хи-хи, подтёр всю кровь, потому что, знаете ли, я очень законопослушный гражданин и никогда не оставляю после себя такой беспорядок посреди улицы!</p>
-                        <p>И тут - тут я вспомнил, что мне надо куда-то идти, в какое-то очень важное место! Мне надо было идти вниз, вниз на ярмарку, чтобы встретиться с остальными! Ха-ха, вот глупый я, раз про такое забыл. Глупый, тупой, никчёмный клоун, ха-ха! Ха-ха! Так что пошёл я по улице в сторону ярмарки, а эти люди в странных халатах приехали на визгливой машине в спрашивают, не ранен ли я. Они не были смешные, а их машина так визжала, что у меня уши разболелись, так что, когда один из них подошёл, я решил пожать ему руку электрической рукопожималкой, ха-ха! Как он удивился, когда пожал мне руку!  Он так удивился, у него прямо глаза из орбит полезли! Я так смеялся, когда так получилось! А потом было не так забавно, потому что они повисли на таких кровяных шнурочках, и он начал кричать, но кончилось всё нормально, потому что другие люди увезли его на визгливой машине, так что мне не пришлось на это долго смотреть.</p>
-                        <p>Я иногда очень посредственный клоун, хи-хи. Очень плохой, глупый клоун, ха-ха! Это смешная шутка, даже если это задевает немного мои чувства, хи-хи. Я знаю, что это смешно, потому что Г-н Редд всегда очень смеялся, когда это говорил! Ха-ха! Г-н Редд был не очень смешной, но он много смеялся. Может быть, это ОН должен был быть Г-ном Смехом! Ха-ха! Из этого получится смешная шутка! Если я когда-нибудь снова увижу Г-на Редда, надо рассказать ему, какую я придумал шутку. Может быть, он будет смеяться! Иногда, когда он смеялся, он даже не делал мне больно.</p>
-                        <p class="pEnd"><a href="">Следующий: 13</a>. Г-н Фиолетовый от Faminepulse</p>   
-                    </div>
-                    <div class="storeMain2">
-                        <p>Ацэнка: 7.5/10</p>
-                        <p>Філіял: Беларускі</p>
-                        <p>Аўтар: Хведар Звычайны</p>
-                    </div>
-                </div>
-                <div class="storeInfo">
+    /* HEADER */
 
-                </div>
-            </div>
-            
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 15vh;
+        background: linear-gradient(rgb(0, 0, 0),rgb(56, 23, 29));
+        
+    }
+    .headerTop{
+        width: 100%;
+        height: 12.5vh;
+    }
+    .headerBottom{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 2.5vh;
+        background-color: rgb(116, 116, 116);
+        box-shadow: -5px -5px 10px rgba(0,0,0,0.5);
+        justify-content: end;
+    }
+    .headerBottom ul{
+        margin: 0;
+        float: right;
+    }
+    .headerBottom ul li{
+        display: inline;
+        margin-right: 3vw;
+        align-items: center;
+    }
+    .headerBottom ul li a{
+        text-decoration: none;
+        font-size: 1rem;
+        outline: none;
+        color: rgb(255, 255, 255);
+    }
 
 
-        </div>
-        <div class="footer">
-            <div class="footerLine">
-                <p>ByFoundation engine powered by a Cnok-Cnok originally made by the HilIngineTeam</p>
-            </div>
-            <div class="footerNoLine">
-                <p>Наконт ліцэнзіі - звяртацца да мяне. Калі зрабуеце - выкличу сваіх садавінавых хлапакоў</p>
-            </div>
-        </div>   
-    </div>
+    /* MAIN */
+
+    .main{
+        box-shadow: 0 -10px 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        justify-content:center;
+        width: 100%;
+        min-height: 150vh;
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .textMain{
+        width: 50vw;
+        height: 150vh;
+        
+        
+    }
+
+    .storeName{
+        margin-top: 1vh;
+        height: auto;
+        width: 100%;
+        border-bottom: 1px solid rgb(136, 91, 91);
+        color: rgb(119, 12, 12);
+        
+    }
+    .storeName h1{
+        width: 100%;
+        margin: 0;
+        font-weight: 100;
+    }
+
+    .storeMain{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+        height: 90%;
+        color: rgb(59, 59, 59);
+
+    }
+    .storeMain1{
+        height: 90%;
+    }
+
+    .storeMain1 a{
+        text-decoration: none;
+        outline: none;
+        color: rgb(119, 12, 12);
+    }
+    .storeMain2{
+        padding-top: 1vh;
+        border-top: 1px solid rgb(121, 71, 71);
+    }
+    .storeMain2 p{
+
+        margin: 0;
+        font-size: 0.8em;
+        padding-top: 0.5vh;
+    }
+
+    .pEnd{
+        text-align: end;
+    }
+
+    .textMenu{
+        display: flex;
+        flex-direction: column;
+        width: 10vw;
+        height: 85vh;
+        padding-top: 5vh;
+        gap: 2vh;
+        color: rgb(66, 19, 19);
+    }
+    .menuItem{
+        border: 1px solid rgb(63, 33, 33);
+        border-radius: 12px;
+        padding: 1em;
+        text-align: start;
+    }
+    .menuItem p{
+        font-weight: 700;
+        color: rgb(134, 62, 62);
+    }
+    .menuItem2{
+        height: 30%;
+    }
+    .menuItem4{
+        height: 20%;
+    }
+    .menuItem5{
+        height: 40%;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 7vh;
+        
+    }
+    .footerLine{
+        width: 100%;
+        height: 2vh;
+        background-color:rgb(73, 73, 73);
+
+    }
+    .footerLine p{
+        margin: 0;
+        padding-top: 0.2vh;
+        padding-left: 1vw;
+        font-size: 0.8em;
+        color: aliceblue;
+    }
+    .footerNoLine p{
+        margin: 0;
+        padding-top: 1vh;
+        font-size: 1.2em;
+        color: rgb(78, 76, 76);
+        text-align: center;
+    }    
+}
+
+@media screen and (min-width: 550px) and (max-width: 1099px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HEADER */
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 35vw;
+        background: linear-gradient(rgb(0, 0, 0),rgb(56, 23, 29));
+        
+    }
+    .headerTop{
+        width: 100%;
+        height: 40%;
+    }
+    .headerBottom{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60%;
+        background-color: rgb(116, 116, 116);
+        box-shadow: -5px -5px 10px rgba(0,0,0,0.5);
+        justify-content:start;
+        
+    }
+    .headerBottom ul{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+    .headerBottom ul li{
+        margin-bottom: 1vw;
+        list-style-type: none;
+        border-bottom: 1px solid rgb(49, 26, 26);
+
+
+    }
+    .headerBottom ul li a{
+        font-size: 2.2vw;
+
+        text-decoration: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* MAIN */
+
+    .main{
+
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content:center;
+        width: 100%;
+
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .textMain{
+        width: 100%;
+
+    }
+
+    .storeName{
+
+        height: auto;
+        width: 100%;
+        border-bottom: 1px solid rgb(136, 91, 91);
+        color: rgb(119, 12, 12);
+        
+    }
+    .storeName h1{
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        margin: 0;
+        font-weight: 100;
+    }
+
+    .storeMain{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        color: rgb(59, 59, 59);
+
+    }
+    .storeMain1{
+        margin-bottom: 10vh;
+        font-size: 1.3em;
+    }
+
+    .storeMain1 a{
+        text-decoration: none;
+        outline: none;
+        color: rgb(119, 12, 12);
+    }
+    .storeMain2{
+
+        
+        border-top: 1px solid rgb(121, 71, 71);
+    }
+    .storeMain2 p{
+
+        margin: 0;
+        font-size: 1.3em;
+
+    }
+
+    .pEnd{
+        text-align: end;
+    }
+
+    .textMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        padding-top: 5vh;
+        gap: 2vh;
+        color: rgb(66, 19, 19);
+        align-items: center;
+    }
+    .menuItem{
+        border-top: 1px solid rgb(63, 33, 33);
+        padding: 0.2em;
+        width: 70%;
+        text-align: start;
+        font-size: 1.2em;
+    }
+    .menuItem p{
+        font-weight: 700;
+        color: rgb(134, 62, 62);
+    }
+    .menuItem2{
+        height: auto;
+    }
+    .menuItem4{
+        height: auto;
+    }
+    .menuItem5{
+        height: auto;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+    }
+    .footerLine{
+        width: 100%;
+        height: 5vh;
+        background-color:rgb(73, 73, 73);
+
+    }
+    .footerLine p{
+        margin: 0;
+        padding-top: 0.8vh;
+        padding-left: 1vw;
+        font-size: 1.1em;
+        color: aliceblue;
+    }
+    .footerNoLine p{
+        margin: 0;
+        margin-top: 1vh;
+        font-size: 1.5em;
+        color: rgb(78, 76, 76);
+        text-align: center;
+
+    }  
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 549px){
     
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 
-</body>
-</html>
+    /* HEADER */
+    
+    
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 55vw;
+        background: linear-gradient(rgb(0, 0, 0),rgb(56, 23, 29));
+        
+    }
+    .headerTop{
+        width: 100%;
+        height: 40%;
+    }
+    .headerBottom{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60%;
+        background-color: rgb(116, 116, 116);
+        box-shadow: -5px -5px 10px rgba(0,0,0,0.5);
+        justify-content:start;
+        
+    }
+    .headerBottom ul{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+    .headerBottom ul li{
+        margin-bottom: 1vw;
+        list-style-type: none;
+        border-bottom: 1px solid rgb(49, 26, 26);
+
+
+    }
+    .headerBottom ul li a{
+        font-size: 4vw;
+
+        text-decoration: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* MAIN */
+
+    .main{
+        box-shadow: 0 -10px 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content:center;
+        width: 100%;
+
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .textMain{
+        width: 100%;
+
+    }
+
+    .storeName{
+
+        height: auto;
+        width: 100%;
+        border-bottom: 1px solid rgb(136, 91, 91);
+        color: rgb(119, 12, 12);
+        
+    }
+    .storeName h1{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0;
+        font-weight: 100;
+    }
+
+    .storeMain{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        color: rgb(59, 59, 59);
+
+    }
+    .storeMain1{
+        margin-bottom: 10vh;
+        font-size: 1em;
+    }
+
+    .storeMain1 a{
+        text-decoration: none;
+        outline: none;
+        color: rgb(119, 12, 12);
+    }
+    .storeMain2{
+
+    
+        border-top: 1px solid rgb(121, 71, 71);
+    }
+    .storeMain2 p{
+
+        margin: 0;
+        font-size: 1em;
+
+    }
+
+    .pEnd{
+        text-align: end;
+    }
+
+    .textMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        padding-top: 5vh;
+        gap: 2vh;
+        color: rgb(66, 19, 19);
+        align-items: center;
+    }
+    .menuItem{
+        border-top: 1px solid rgb(63, 33, 33);
+        padding: 0.2em;
+        width: 70%;
+        text-align: start;
+        font-size: 1.2em;
+    }
+    .menuItem p{
+        font-size: 3.5vw;
+        font-weight: 700;
+        color: rgb(134, 62, 62);
+    }
+    .menuItem p{
+        font-weight: 700;
+        color: rgb(134, 62, 62);
+    }
+    .menuItem2{
+        height: auto;
+    }
+    .menuItem4{
+        height: auto;
+    }
+    .menuItem5{
+        height: auto;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+    }
+    .footerLine{
+        width: 100%;
+        height: 5vh;
+        background-color:rgb(73, 73, 73);
+
+    }
+    .footerLine p{
+        margin: 0;
+        padding-top: 0.8vh;
+        padding-left: 1vw;
+        font-size: 0.8em;
+        color: aliceblue;
+    }
+    .footerNoLine p{
+        margin: 0;
+        margin-top: 1vh;
+        font-size: 1.2em;
+        color: rgb(78, 76, 76);
+        text-align: center;
+
+    }  
+}
+
+@media screen and (max-width: 349px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* HEADER */
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 65vw;
+        background: linear-gradient(rgb(0, 0, 0),rgb(56, 23, 29));
+        
+    }
+    .headerTop{
+        width: 100%;
+        height: 40%;
+    }
+    .headerBottom{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 60%;
+        background-color: rgb(116, 116, 116);
+        box-shadow: -5px -5px 10px rgba(0,0,0,0.5);
+        justify-content:start;
+        
+    }
+    .headerBottom ul{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+
+    }
+    .headerBottom ul li{
+        margin-bottom: 1vw;
+        font-weight: 600;
+        list-style-type: none;
+        border-bottom: 1px solid rgb(49, 26, 26);
+
+
+    }
+    .headerBottom ul li a{
+        font-size: 3vw;
+
+        text-decoration: none;
+        outline: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+    /* MAIN */
+
+    .main{
+        box-shadow: 0 -10px 10px rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content:center;
+        width: 100%;
+
+        background-color: rgb(255, 255, 255);
+        
+    }
+
+    .textMain{
+        width: 100%;
+
+    }
+
+    .storeName{
+
+        height: auto;
+        width: 100%;
+        border-bottom: 1px solid rgb(136, 91, 91);
+        color: rgb(119, 12, 12);
+        
+    }
+    .storeName h1{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2rem;
+        margin: 0;
+        font-weight: 100;
+    }
+
+    .storeMain{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5vh;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        color: rgb(59, 59, 59);
+
+    }
+    .storeMain1{
+        margin-bottom: 10vh;
+        font-size: 0.8em;
+    }
+
+    .storeMain1 a{
+        text-decoration: none;
+        outline: none;
+        color: rgb(119, 12, 12);
+    }
+    .storeMain2{
+
+    
+        border-top: 1px solid rgb(121, 71, 71);
+    }
+    .storeMain2 p{
+
+        margin: 0;
+        font-size: 0.8em;
+
+    }
+
+    .pEnd{
+        text-align: end;
+    }
+
+    .textMenu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        padding-top: 5vh;
+        gap: 2vh;
+        color: rgb(66, 19, 19);
+        align-items: center;
+    }
+    .menuItem{
+        border-top: 1px solid rgb(63, 33, 33);
+        padding: 0.2em;
+        width: 70%;
+        text-align: start;
+        font-size: 1.2em;
+    }
+    .menuItem p{
+        font-size: 3.5vw;
+        font-weight: 700;
+        color: rgb(134, 62, 62);
+    }
+    .menuItem2{
+        height: auto;
+    }
+    .menuItem4{
+        height: auto;
+    }
+    .menuItem5{
+        height: auto;
+    }
+
+
+    /* FOOTER */
+
+    .footer{
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        
+    }
+    .footerLine{
+        width: 100%;
+        height: 5vh;
+        background-color:rgb(73, 73, 73);
+
+    }
+    .footerLine p{
+        margin: 0;
+        padding-top: 0.8vh;
+        padding-left: 1vw;
+        font-size: 0.6em;
+        color: aliceblue;
+    }
+    .footerNoLine p{
+        margin: 0;
+        margin-top: 1vh;
+        font-size: 1em;
+        color: rgb(78, 76, 76);
+        text-align: center;
+
+    }      
+} 
